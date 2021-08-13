@@ -3,27 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3A7C50EF26C6CBDB00108C52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C50EE26C6CBDB00108C52 /* AppDelegate.swift */; };
 		3A7C50F126C6CBDB00108C52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C50F026C6CBDB00108C52 /* SceneDelegate.swift */; };
-		3A7C50F326C6CBDB00108C52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C50F226C6CBDB00108C52 /* ViewController.swift */; };
 		3A7C50F626C6CBDB00108C52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7C50F426C6CBDB00108C52 /* Main.storyboard */; };
 		3A7C50F826C6CBDF00108C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7C50F726C6CBDF00108C52 /* Assets.xcassets */; };
 		3A7C50FB26C6CBDF00108C52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7C50F926C6CBDF00108C52 /* LaunchScreen.storyboard */; };
+		5559512B0A069FFD83C7EBCD /* Pods_DominicScafatiAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33390FD5D8547B3D440AA7D /* Pods_DominicScafatiAPI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A7C50EB26C6CBDB00108C52 /* DominicScafatiAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DominicScafatiAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7C50EE26C6CBDB00108C52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A7C50F026C6CBDB00108C52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A7C50F226C6CBDB00108C52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A7C50F526C6CBDB00108C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A7C50F726C6CBDF00108C52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A7C50FA26C6CBDF00108C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A7C50FC26C6CBDF00108C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59186F40D97CFA89E6B4AE5C /* Pods-DominicScafatiAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DominicScafatiAPI.debug.xcconfig"; path = "Target Support Files/Pods-DominicScafatiAPI/Pods-DominicScafatiAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		C36B7CB209729016B97B73BF /* Pods-DominicScafatiAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DominicScafatiAPI.release.xcconfig"; path = "Target Support Files/Pods-DominicScafatiAPI/Pods-DominicScafatiAPI.release.xcconfig"; sourceTree = "<group>"; };
+		D33390FD5D8547B3D440AA7D /* Pods_DominicScafatiAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DominicScafatiAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5559512B0A069FFD83C7EBCD /* Pods_DominicScafatiAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		100C19BA1D2D9D534E1324CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59186F40D97CFA89E6B4AE5C /* Pods-DominicScafatiAPI.debug.xcconfig */,
+				C36B7CB209729016B97B73BF /* Pods-DominicScafatiAPI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3A7C50E226C6CBDB00108C52 = {
 			isa = PBXGroup;
 			children = (
 				3A7C50ED26C6CBDB00108C52 /* DominicScafatiAPI */,
 				3A7C50EC26C6CBDB00108C52 /* Products */,
+				100C19BA1D2D9D534E1324CC /* Pods */,
+				4ABE5C398A03D7F95256F3F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +70,70 @@
 		3A7C50ED26C6CBDB00108C52 /* DominicScafatiAPI */ = {
 			isa = PBXGroup;
 			children = (
-				3A7C50EE26C6CBDB00108C52 /* AppDelegate.swift */,
-				3A7C50F026C6CBDB00108C52 /* SceneDelegate.swift */,
-				3A7C50F226C6CBDB00108C52 /* ViewController.swift */,
+				3A7C514A26C6D43A00108C52 /* View */,
+				3A7C514926C6D43300108C52 /* ViewModel */,
+				3A7C514826C6D42600108C52 /* Model */,
+				3A7C514626C6D3E800108C52 /* Networking */,
+				3A7C514426C6D3C500108C52 /* Utility */,
+				3A7C511E26C6CFE200108C52 /* Resources */,
 				3A7C50F426C6CBDB00108C52 /* Main.storyboard */,
 				3A7C50F726C6CBDF00108C52 /* Assets.xcassets */,
 				3A7C50F926C6CBDF00108C52 /* LaunchScreen.storyboard */,
 				3A7C50FC26C6CBDF00108C52 /* Info.plist */,
 			);
 			path = DominicScafatiAPI;
+			sourceTree = "<group>";
+		};
+		3A7C511E26C6CFE200108C52 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3A7C50EE26C6CBDB00108C52 /* AppDelegate.swift */,
+				3A7C50F026C6CBDB00108C52 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3A7C514426C6D3C500108C52 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		3A7C514626C6D3E800108C52 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		3A7C514826C6D42600108C52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A7C514926C6D43300108C52 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3A7C514A26C6D43A00108C52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4ABE5C398A03D7F95256F3F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D33390FD5D8547B3D440AA7D /* Pods_DominicScafatiAPI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A7C50FF26C6CBDF00108C52 /* Build configuration list for PBXNativeTarget "DominicScafatiAPI" */;
 			buildPhases = (
+				CFED63FE9BF822E227617D4E /* [CP] Check Pods Manifest.lock */,
 				3A7C50E726C6CBDB00108C52 /* Sources */,
 				3A7C50E826C6CBDB00108C52 /* Frameworks */,
 				3A7C50E926C6CBDB00108C52 /* Resources */,
+				53F8AF0DCF95ED3B1D7891AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,12 +203,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53F8AF0DCF95ED3B1D7891AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DominicScafatiAPI/Pods-DominicScafatiAPI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DominicScafatiAPI/Pods-DominicScafatiAPI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DominicScafatiAPI/Pods-DominicScafatiAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFED63FE9BF822E227617D4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DominicScafatiAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3A7C50E726C6CBDB00108C52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A7C50F326C6CBDB00108C52 /* ViewController.swift in Sources */,
 				3A7C50EF26C6CBDB00108C52 /* AppDelegate.swift in Sources */,
 				3A7C50F126C6CBDB00108C52 /* SceneDelegate.swift in Sources */,
 			);
@@ -283,6 +395,7 @@
 		};
 		3A7C510026C6CBDF00108C52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59186F40D97CFA89E6B4AE5C /* Pods-DominicScafatiAPI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +415,7 @@
 		};
 		3A7C510126C6CBDF00108C52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C36B7CB209729016B97B73BF /* Pods-DominicScafatiAPI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
