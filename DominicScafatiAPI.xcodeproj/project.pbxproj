@@ -19,8 +19,22 @@
 		3A7C515A26C6D95D00108C52 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C515926C6D95D00108C52 /* MoviesViewModel.swift */; };
 		3A7C515E26C6DA7100108C52 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C515D26C6DA7100108C52 /* MoviesViewController.swift */; };
 		3A7C516126C6DBB700108C52 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C516026C6DBB700108C52 /* MovieTableViewCell.swift */; };
+		3A7C516B26C6DC8200108C52 /* DominicScafatiAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C516A26C6DC8200108C52 /* DominicScafatiAPITests.swift */; };
+		3A7C517626C6DCE400108C52 /* movieSuccessResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A7C517526C6DCE400108C52 /* movieSuccessResponse.json */; };
+		3A7C518226C6DD2500108C52 /* movieFailureResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A7C518126C6DD2500108C52 /* movieFailureResponse.json */; };
+		3A7C518626C6DD7D00108C52 /* MoviesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C518526C6DD7D00108C52 /* MoviesViewModelTests.swift */; };
 		5559512B0A069FFD83C7EBCD /* Pods_DominicScafatiAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33390FD5D8547B3D440AA7D /* Pods_DominicScafatiAPI.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A7C516D26C6DC8200108C52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A7C50E326C6CBDB00108C52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A7C50EA26C6CBDB00108C52;
+			remoteInfo = DominicScafatiAPI;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3A7C50EB26C6CBDB00108C52 /* DominicScafatiAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DominicScafatiAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +51,12 @@
 		3A7C515926C6D95D00108C52 /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
 		3A7C515D26C6DA7100108C52 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		3A7C516026C6DBB700108C52 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		3A7C516826C6DC8200108C52 /* DominicScafatiAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DominicScafatiAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A7C516A26C6DC8200108C52 /* DominicScafatiAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominicScafatiAPITests.swift; sourceTree = "<group>"; };
+		3A7C516C26C6DC8200108C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A7C517526C6DCE400108C52 /* movieSuccessResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movieSuccessResponse.json; sourceTree = "<group>"; };
+		3A7C518126C6DD2500108C52 /* movieFailureResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movieFailureResponse.json; sourceTree = "<group>"; };
+		3A7C518526C6DD7D00108C52 /* MoviesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModelTests.swift; sourceTree = "<group>"; };
 		59186F40D97CFA89E6B4AE5C /* Pods-DominicScafatiAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DominicScafatiAPI.debug.xcconfig"; path = "Target Support Files/Pods-DominicScafatiAPI/Pods-DominicScafatiAPI.debug.xcconfig"; sourceTree = "<group>"; };
 		C36B7CB209729016B97B73BF /* Pods-DominicScafatiAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DominicScafatiAPI.release.xcconfig"; path = "Target Support Files/Pods-DominicScafatiAPI/Pods-DominicScafatiAPI.release.xcconfig"; sourceTree = "<group>"; };
 		D33390FD5D8547B3D440AA7D /* Pods_DominicScafatiAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DominicScafatiAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +68,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5559512B0A069FFD83C7EBCD /* Pods_DominicScafatiAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A7C516526C6DC8200108C52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				3A7C50ED26C6CBDB00108C52 /* DominicScafatiAPI */,
+				3A7C516926C6DC8200108C52 /* DominicScafatiAPITests */,
 				3A7C50EC26C6CBDB00108C52 /* Products */,
 				100C19BA1D2D9D534E1324CC /* Pods */,
 				4ABE5C398A03D7F95256F3F1 /* Frameworks */,
@@ -77,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				3A7C50EB26C6CBDB00108C52 /* DominicScafatiAPI.app */,
+				3A7C516826C6DC8200108C52 /* DominicScafatiAPITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -149,6 +178,26 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		3A7C516926C6DC8200108C52 /* DominicScafatiAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A7C517426C6DCB400108C52 /* Response */,
+				3A7C516A26C6DC8200108C52 /* DominicScafatiAPITests.swift */,
+				3A7C516C26C6DC8200108C52 /* Info.plist */,
+				3A7C518526C6DD7D00108C52 /* MoviesViewModelTests.swift */,
+			);
+			path = DominicScafatiAPITests;
+			sourceTree = "<group>";
+		};
+		3A7C517426C6DCB400108C52 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				3A7C517526C6DCE400108C52 /* movieSuccessResponse.json */,
+				3A7C518126C6DD2500108C52 /* movieFailureResponse.json */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
 		4ABE5C398A03D7F95256F3F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +228,24 @@
 			productReference = 3A7C50EB26C6CBDB00108C52 /* DominicScafatiAPI.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3A7C516726C6DC8200108C52 /* DominicScafatiAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A7C516F26C6DC8200108C52 /* Build configuration list for PBXNativeTarget "DominicScafatiAPITests" */;
+			buildPhases = (
+				3A7C516426C6DC8200108C52 /* Sources */,
+				3A7C516526C6DC8200108C52 /* Frameworks */,
+				3A7C516626C6DC8200108C52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A7C516E26C6DC8200108C52 /* PBXTargetDependency */,
+			);
+			name = DominicScafatiAPITests;
+			productName = DominicScafatiAPITests;
+			productReference = 3A7C516826C6DC8200108C52 /* DominicScafatiAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,6 +257,10 @@
 				TargetAttributes = {
 					3A7C50EA26C6CBDB00108C52 = {
 						CreatedOnToolsVersion = 12.3;
+					};
+					3A7C516726C6DC8200108C52 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 3A7C50EA26C6CBDB00108C52;
 					};
 				};
 			};
@@ -207,6 +278,7 @@
 			projectRoot = "";
 			targets = (
 				3A7C50EA26C6CBDB00108C52 /* DominicScafatiAPI */,
+				3A7C516726C6DC8200108C52 /* DominicScafatiAPITests */,
 			);
 		};
 /* End PBXProject section */
@@ -219,6 +291,15 @@
 				3A7C50FB26C6CBDF00108C52 /* LaunchScreen.storyboard in Resources */,
 				3A7C50F826C6CBDF00108C52 /* Assets.xcassets in Resources */,
 				3A7C50F626C6CBDB00108C52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A7C516626C6DC8200108C52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7C518226C6DD2500108C52 /* movieFailureResponse.json in Resources */,
+				3A7C517626C6DCE400108C52 /* movieSuccessResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +364,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3A7C516426C6DC8200108C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7C516B26C6DC8200108C52 /* DominicScafatiAPITests.swift in Sources */,
+				3A7C518626C6DD7D00108C52 /* MoviesViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A7C516E26C6DC8200108C52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A7C50EA26C6CBDB00108C52 /* DominicScafatiAPI */;
+			targetProxy = 3A7C516D26C6DC8200108C52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3A7C50F426C6CBDB00108C52 /* Main.storyboard */ = {
@@ -461,6 +559,46 @@
 			};
 			name = Release;
 		};
+		3A7C517026C6DC8200108C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ASQ8749W3L;
+				INFOPLIST_FILE = DominicScafatiAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dom-Scafati.DominicScafatiAPITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DominicScafatiAPI.app/DominicScafatiAPI";
+			};
+			name = Debug;
+		};
+		3A7C517126C6DC8200108C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ASQ8749W3L;
+				INFOPLIST_FILE = DominicScafatiAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dom-Scafati.DominicScafatiAPITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DominicScafatiAPI.app/DominicScafatiAPI";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -478,6 +616,15 @@
 			buildConfigurations = (
 				3A7C510026C6CBDF00108C52 /* Debug */,
 				3A7C510126C6CBDF00108C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A7C516F26C6DC8200108C52 /* Build configuration list for PBXNativeTarget "DominicScafatiAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A7C517026C6DC8200108C52 /* Debug */,
+				3A7C517126C6DC8200108C52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
