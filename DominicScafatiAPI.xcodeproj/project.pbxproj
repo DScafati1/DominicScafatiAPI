@@ -15,6 +15,8 @@
 		3A7C514C26C6D53700108C52 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C514B26C6D53700108C52 /* EndPoints.swift */; };
 		3A7C515026C6D56D00108C52 /* GenericJsonDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C514F26C6D56D00108C52 /* GenericJsonDecoder.swift */; };
 		3A7C515326C6D61700108C52 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C515226C6D61700108C52 /* Service.swift */; };
+		3A7C515626C6D92D00108C52 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C515526C6D92D00108C52 /* Movie.swift */; };
+		3A7C515A26C6D95D00108C52 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C515926C6D95D00108C52 /* MoviesViewModel.swift */; };
 		5559512B0A069FFD83C7EBCD /* Pods_DominicScafatiAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33390FD5D8547B3D440AA7D /* Pods_DominicScafatiAPI.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,8 @@
 		3A7C514B26C6D53700108C52 /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
 		3A7C514F26C6D56D00108C52 /* GenericJsonDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericJsonDecoder.swift; sourceTree = "<group>"; };
 		3A7C515226C6D61700108C52 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		3A7C515526C6D92D00108C52 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		3A7C515926C6D95D00108C52 /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
 		59186F40D97CFA89E6B4AE5C /* Pods-DominicScafatiAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DominicScafatiAPI.debug.xcconfig"; path = "Target Support Files/Pods-DominicScafatiAPI/Pods-DominicScafatiAPI.debug.xcconfig"; sourceTree = "<group>"; };
 		C36B7CB209729016B97B73BF /* Pods-DominicScafatiAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DominicScafatiAPI.release.xcconfig"; path = "Target Support Files/Pods-DominicScafatiAPI/Pods-DominicScafatiAPI.release.xcconfig"; sourceTree = "<group>"; };
 		D33390FD5D8547B3D440AA7D /* Pods_DominicScafatiAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DominicScafatiAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,9 +82,9 @@
 			children = (
 				3A7C514426C6D3C500108C52 /* Utility */,
 				3A7C514626C6D3E800108C52 /* Networking */,
-				3A7C514A26C6D43A00108C52 /* View */,
-				3A7C514926C6D43300108C52 /* ViewModel */,
 				3A7C514826C6D42600108C52 /* Model */,
+				3A7C514926C6D43300108C52 /* ViewModel */,
+				3A7C514A26C6D43A00108C52 /* View */,
 				3A7C511E26C6CFE200108C52 /* Resources */,
 				3A7C50F426C6CBDB00108C52 /* Main.storyboard */,
 				3A7C50F726C6CBDF00108C52 /* Assets.xcassets */,
@@ -119,6 +123,7 @@
 		3A7C514826C6D42600108C52 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3A7C515526C6D92D00108C52 /* Movie.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 		3A7C514926C6D43300108C52 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				3A7C515926C6D95D00108C52 /* MoviesViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -261,7 +267,9 @@
 			files = (
 				3A7C515026C6D56D00108C52 /* GenericJsonDecoder.swift in Sources */,
 				3A7C50EF26C6CBDB00108C52 /* AppDelegate.swift in Sources */,
+				3A7C515626C6D92D00108C52 /* Movie.swift in Sources */,
 				3A7C515326C6D61700108C52 /* Service.swift in Sources */,
+				3A7C515A26C6D95D00108C52 /* MoviesViewModel.swift in Sources */,
 				3A7C514C26C6D53700108C52 /* EndPoints.swift in Sources */,
 				3A7C50F126C6CBDB00108C52 /* SceneDelegate.swift in Sources */,
 			);
